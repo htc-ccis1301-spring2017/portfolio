@@ -15,12 +15,20 @@ html {
 nav {
     height: 50px;
 }
+#content:target:before {
+    content: "";
+    display: block;
+    height: 90px;
+    /* fixed header height*/
+    margin: -90px 0 0;
+    /* negative fixed header height */
+}
 body {
     /* Move down content because of fixed navbar at top */
     padding-top: 50px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
-    background: #000;
+    background: #bbb;
 }
 img#landing {
     height: 100vh;
@@ -73,18 +81,6 @@ header h1 {
     transition-timing-function: linear;
 }
 
-/* Change one div by hovering another (the one being hovered must be first in html) http://stackoverflow.com/questions/6910049/on-a-css-hover-event-can-i-change-another-divs-styling */
-
-div.first {
-    color: purple;
-}
-div.second {
-    color: red;
-}
-.first:hover ~ .second {
-    color: blue;
-}
-
 /*
 .jumbotron {
     margin-top: 15px;
@@ -134,10 +130,17 @@ div.second {
     color: #c2b280;
     text-shadow: -1px 0 1px black, 0 2px 1px black, 2px 0 1px black, 0 -2px 1px black;
     font-weight: bold;
+    text-align: left;
+}
+.footer {
+    text-align: center;
+    color: #c2b280;
+    background-color: #101010;
+    width: 100%;
 }
 
 /*
 
-Tan Used     color: #c2b280;
+Color Used - Sand   color: #c2b280;
 
 /*
