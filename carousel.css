@@ -1,0 +1,36 @@
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-image: url(images/paint.jpg);
+    margin-top: 15px;
+    padding-bottom: 25px;
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+    background-clip: border-box;
+    font-size: 1.3em;
+}
+
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    background-image: url(images/smash.jpg);
+    background-color: #A2C0A7;
+}
+
+.footer {
+    font-size: 100%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    padding: 20px;
+    margin-left: 190px;
+}
