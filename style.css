@@ -1,0 +1,22 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background-color: azure;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    color: cornflowerblue;
+    text-align: center;
+    padding: 15px;
+}
