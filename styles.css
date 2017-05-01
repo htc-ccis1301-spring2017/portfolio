@@ -13,16 +13,52 @@ body {
     background-color: #6C8CF7;
     background-image: url(images/tartan.png);
     position: relative;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 180%;
+}
+
+main h4 {
+    font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 8px;
+    border-color: #000000;
+    padding: 5px;
+    background-color: rgba(5, 28, 105, .2);
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+.introPad {
+    padding: 0 10px 0px 10px;
+}
+
+figure a img {
+    height: 200px;
+    width: 200px;
+}
+
+.offset:before {
+    display: block;
+    content: " ";
+    height: 50px;
+    /* Give height of your fixed element */
+    margin-top: -50px;
+    /* Give negative margin of your fixed element */
+    visibility: hidden;
 }
 
 figcaption {
     text-align: center;
     text-decoration: none;
     color: #051C69;
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 115%;
+    letter-spacing: .5px;
+    margin-bottom: 15px;
 }
 
 figcaption a:link {
-    font-weight: bolder;
     color: #051C69;
 }
 
@@ -73,12 +109,14 @@ ul li {
     list-style-type: none;
 }
 
-.row {
-    margin-bottom: 15px;
+li div {
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 3px;
 }
 
-h5 {
-    font-size: 1.2em;
+.row {
+    margin-bottom: 15px;
 }
 
 footer {
@@ -91,11 +129,12 @@ footer {
     text-align: center;
     padding: 15px;
     margin-top: 30px;
+    font-size: 86%;
 }
 
 footer a:link {
-    color: #FFFFFF;
-    text-decoration: none;
+    text-decoration: underline;
+    font-weight: bolder;
 }
 
 footer a:visited {
@@ -103,7 +142,7 @@ footer a:visited {
 }
 
 footer a:hover {
-    color: #FFCD5D;
+    color: #FFFFFF;
 }
 
 footer div {
@@ -167,10 +206,6 @@ footer {
     main li {
         margin-top: 20px;
     }
-    main h5 {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
     h4 {
         margin-top: 10px;
         margin-bottom: 10px;
@@ -206,11 +241,7 @@ footer {
         margin-bottom: 30px;
     }
     main li {
-        margin-top: 30px;
-    }
-    main h5 {
-        margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 25px;
     }
     .onlyDesktopBlock {
         display: block;
