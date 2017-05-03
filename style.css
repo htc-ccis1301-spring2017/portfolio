@@ -116,6 +116,13 @@ header h1 {
     width: 100%;
 }
 
+/*Landing Page*/
+
+.skip {
+    border-radius: 2em;
+    background-color: rgba(30, 30, 30, .6)
+}
+
 /* About Jumbotron */
 
 .margin-fix {
