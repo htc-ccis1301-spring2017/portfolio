@@ -133,6 +133,13 @@ header h1 {
     width: 100%;
 }
 
+/* ID'S*/
+
+#mywork {
+    padding-top: 60px;
+    margin-top: -60px;
+}
+
 /*
 
 Color Used - Sand   color: #c2b280;
