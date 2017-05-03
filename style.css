@@ -74,29 +74,12 @@ header h1 {
     transition: color .2s, font-size .1s;
     transition-timing-function: linear;
 }
-
-/*
 .jumbotron {
-    margin-top: 15px;
-    padding-bottom: 25px;
-    color: black;
-    text-align: center;
-    background: url("") no-repeat;
-    background-clip: border-box;
-    background-size: cover;
+    border-style: solid;
+    border-width: 7px 0px 7px 0px;
 }
-.jumbotron small {
-    color: #1F5829;
-}
-.jumbotron p {
-    font-size: 1.3em;
-    font-weight: bold;
-}
-
-*/
-
 .carousel {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .carousel-indicators .active {
     background-color: #c2b280;
@@ -133,11 +116,28 @@ header h1 {
     width: 100%;
 }
 
+/* About Jumbotron */
+
+.margin-fix {
+    margin-top: 0px;
+}
+h3.margin-fix {
+    margin-top: -6px
+}
+.jumbotron p {
+    font-size: 1.4em;
+}
+
 /* ID'S*/
 
 #mywork {
     padding-top: 60px;
-    margin-top: -60px;
+    margin-top: -50px;
+}
+#about {
+    margin-top: -30px;
+    padding-top: 78px;
+    margin-bottom: 50px
 }
 
 /*
