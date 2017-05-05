@@ -6,6 +6,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
+    font-family: inherit, Arial, sans-serif;
 }
 html {
     /* Needed to fix footer at bottom of browser */
