@@ -6,7 +6,7 @@ body {
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: inherit, Arial, sans-serif;
+    font-family: "Helvetica Neue", Arial, sans-serif;
 }
 html {
     /* Needed to fix footer at bottom of browser */
@@ -191,8 +191,6 @@ h4 {
 
 /* ID'S*/
 
-
-}
 #about {
     padding-top: 1111111190px;
     margin-top: 190px;
@@ -213,29 +211,38 @@ Color Used - Sand   color: #c2b280;
 
 */
 
-/*
-*/
 
 /*
 */
 
-/*
-*/
 
 /*
 */
 
-/*
-*/
 
 /*
 */
 
-/*
-*/
 
 /*
 */
+
+
+/*
+*/
+
+
+/*
+*/
+
+
+/*
+*/
+
+
+/*
+*/
+
 @media(max-width:575px) {
     li.seven-up {
         display: none;
@@ -253,14 +260,18 @@ Color Used - Sand   color: #c2b280;
 /*
 */
 
-/*
-*/
 
 /*
 */
 
+
 /*
 */
+
+
+/*
+*/
+
 @media(min-width:576px) and (max-width:767px) {
     li.disappear {
         display: inline;
@@ -286,11 +297,14 @@ Color Used - Sand   color: #c2b280;
 /*
 */
 
-/*
-*/
 
 /*
 */
+
+
+/*
+*/
+
 @media(min-width:768px) and (max-width:991px) {
     li.disappear {
         display: none;
@@ -315,12 +329,15 @@ Color Used - Sand   color: #c2b280;
 /*
 */
 
+
 /*
 /*
 */
 
+
 /*
 */
+
 @media(min-width:992px) and (max-width:1199px) {
     li.disappear {
         display: none;
@@ -345,14 +362,18 @@ Color Used - Sand   color: #c2b280;
 /*
 */
 
-/*
-*/
 
 /*
 */
 
+
 /*
 */
+
+
+/*
+*/
+
 @media(min-width:1200px) {
     li.disappear {
         display: none;
