@@ -115,7 +115,7 @@ header h1 {
     color: #c2b280;
     background-color: #101010;
     width: 100%;
-    height: 150px;
+    height: 90px;
 }
 footer a:link {
     color: #4d4733;
@@ -236,10 +236,6 @@ Color Used - Sand   color: #c2b280;
 /*
 */
 @media(max-width:575px) {
-    html,
-    body {
-        background-color: purple;
-    }
     li.seven-up {
         display: none;
     }
@@ -277,21 +273,18 @@ Color Used - Sand   color: #c2b280;
         margin-top: -60px;
     }
     #education {
-        padding-top: 170px;
-        margin-top: -170px;
+        padding-top: 220px;
+        margin-top: -220px;
     }
     li.seven-up {
         display: none;
-    }
-    body,
-    html {
-        background-color: blue;
     }
 }
 
 /*
 /*
 */
+
 /*
 */
 
@@ -315,10 +308,6 @@ Color Used - Sand   color: #c2b280;
     }
     li.seven-up {
         display: inline;
-    }
-    body,
-    html {
-        background-color: red;
     }
 }
 
@@ -349,10 +338,6 @@ Color Used - Sand   color: #c2b280;
     #skills {
         padding-top: 290px;
         margin-top: -290px;
-    }
-    body,
-    html {
-        background-color: violet;
     }
 }
 
@@ -385,9 +370,5 @@ Color Used - Sand   color: #c2b280;
     #skills {
         padding-top: 290px;
         margin-top: -290px;
-    }
-    body,
-    html {
-        background-color: orange;
     }
 }
