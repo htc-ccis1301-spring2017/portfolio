@@ -25,7 +25,7 @@ body {
     padding-top: 50px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
-    background: #bbb;
+    background: #f2efe5;
 }
 img#landing {
     height: 100vh;
@@ -76,6 +76,7 @@ header h1 {
 }
 .jumbotron {
     border-style: solid;
+    border-color: #3a3526;
     border-width: 7px 0px 7px 0px;
 }
 .carousel {
@@ -114,6 +115,22 @@ header h1 {
     color: #c2b280;
     background-color: #101010;
     width: 100%;
+    height: 150px;
+}
+footer a:link {
+    color: #4d4733;
+    text-decoration: none;
+}
+footer a:visited {
+    text-decoration: none;
+    color: #4d4733;
+}
+footer a:hover {
+    color: #ece7d8;
+    font-size: 1.03em;
+    transition-timing-function: ease-in-out;
+    text-decoration: none;
+    transition: color .2s, font-size .2s;
 }
 
 /*Landing Page*/
@@ -132,30 +149,245 @@ header h1 {
 
 /* About Jumbotron */
 
-.margin-fix {
-    margin-top: 0px;
-}
 h3.margin-fix {
     margin-top: -6px
 }
 .jumbotron p {
     font-size: 1.4em;
 }
+.col-md-4 {
+    padding-top: 25px;
+    margin-top: -25px;
+}
+h3,
+h4 {
+    font-weight: bold;
+}
+.jumbotron p {
+    padding-bottom: 30px;
+}
+.jumbotron {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 150px;
+}
+
+/*
+*/
+
+
+/*
+*/
+
+
+/*
+*/
+
+
+/*
+*/
+
 
 /* ID'S*/
 
-#mywork {
-    padding-top: 60px;
-    margin-top: -50px;
+
 }
 #about {
-    margin-top: -30px;
-    padding-top: 78px;
-    margin-bottom: 50px
+    padding-top: 1111111190px;
+    margin-top: 190px;
+}
+#skills {}
+#education {
+    padding-top: 250px;
+    margin-top: -250px;
+}
+#carousel-div {
+    margin-top: -50px;
+    padding-top: 90px;
 }
 
 /*
 
 Color Used - Sand   color: #c2b280;
 
+*/
+
 /*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+@media(max-width:575px) {
+    html,
+    body {
+        background-color: purple;
+    }
+    li.seven-up {
+        display: none;
+    }
+    #about {
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+    #skills {
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+}
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+@media(min-width:576px) and (max-width:767px) {
+    li.disappear {
+        display: inline;
+    }
+    #about {
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+    #skills {
+        padding-top: 60px;
+        margin-top: -60px;
+    }
+    #education {
+        padding-top: 170px;
+        margin-top: -170px;
+    }
+    li.seven-up {
+        display: none;
+    }
+    body,
+    html {
+        background-color: blue;
+    }
+}
+
+/*
+/*
+*/
+/*
+*/
+
+/*
+*/
+@media(min-width:768px) and (max-width:991px) {
+    li.disappear {
+        display: none;
+    }
+    #about {
+        padding-top: 170px;
+        margin-top: -170px;
+    }
+    #education {
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    #skills {
+        padding-top: 90px;
+        margin-top: -90px;
+    }
+    li.seven-up {
+        display: inline;
+    }
+    body,
+    html {
+        background-color: red;
+    }
+}
+
+/*
+*/
+
+/*
+/*
+*/
+
+/*
+*/
+@media(min-width:992px) and (max-width:1199px) {
+    li.disappear {
+        display: none;
+    }
+    li.seven-up {
+        display: none;
+    }
+    #about {
+        padding-top: 120px;
+        margin-top: -120px;
+    }
+    #education {
+        padding-top: 290px;
+        margin-top: -290px;
+    }
+    #skills {
+        padding-top: 290px;
+        margin-top: -290px;
+    }
+    body,
+    html {
+        background-color: violet;
+    }
+}
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+
+/*
+*/
+@media(min-width:1200px) {
+    li.disappear {
+        display: none;
+    }
+    li.seven-up {
+        display: none;
+    }
+    #about {
+        padding-top: 160px;
+        margin-top: -160px;
+    }
+    #education {
+        padding-top: 290px;
+        margin-top: -290px;
+    }
+    #skills {
+        padding-top: 290px;
+        margin-top: -290px;
+    }
+    body,
+    html {
+        background-color: orange;
+    }
+}
