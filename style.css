@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Macondo';
+    src: url('Macondo-Regular.ttf') format('truetype'); 
+}
+
 html {
     position: relative;
     min-height: 100%;
@@ -8,6 +13,22 @@ body {
     margin-bottom: 100px;
     background-color: #046380;
     position: relative;
+    font-family: "Lucida Bright", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: normal;
+}
+
+.font {
+    font-family: 'Macondo', cursive;
+}
+
+.anchor { 
+  margin-top: -500px; 
+  padding-top: 585px; 
+  display: inline-block;
 }
 
 footer {
@@ -24,6 +45,7 @@ footer {
     background-color: #EFECCA;
     padding-bottom: 25px;
     border-radius: 0 0 6px 6px;
+
 }
 
 #main .row {
@@ -47,10 +69,10 @@ footer {
 .jumbotron {
     margin-top: 15px;
     padding-bottom: 25px;
-    color: #000000;
+    color: #00264d;
     text-align: center;
     text-shadow: #879bA6 3px 3px 4px;
-    background-image: url(ski.jpg);
+    background-image: url(images/ski.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -63,4 +85,77 @@ footer {
 .jumbotron p {
     font-size: 1.3em;
     font-weight: bold;
+}
+
+#gallery {
+    position: relative;
+    height: 200px;
+}
+
+figure {
+    position: absolute;
+    top: 16px;
+    left: 620px;
+    text-align: center;
+    opacity: 0.50;
+}
+
+#gallery ul {
+    width: 600px;
+    list-style-type: none;
+}
+
+#gallery li {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#gallery img {
+    border-style: none;
+    float: none;
+}
+
+gallery a {
+    text-decoration: none;
+    color: #eaeaea;
+    font-style: italic;
+}
+
+#gallery span {
+    position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
+
+#gallery a:hover span {
+    position: absolute;
+    top: 16px;
+    left: 620px;
+    text-align: center;
+    opacity: 1;
+}
+
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+@media only screen and (max-width: 64em) {
+    body {margin: 0px; padding-bottom: 100px;}
+    main {margin: 0px;}
+    figure {display: none; width: 300px;}
+    #gallery ul {width: 300px;}
+    #gallery li {display: inline; float: left; width: 300px;}
+    #gallery a {text-decoration: inherit;}
+    #gallery span {display: none;}
+    #gallery a:hover span {display: none;}
+}
+@media only screen and (max-width: 37.5em) {
+    body {margin: 0px; padding-bottom: 100px;}
+    main {margin: 0px;}
+    figure {display: none;}
+    #gallery li {display: inline; float: left; width: 37.5em;}
+    #gallery span {display: none;}
+    #gallery a:hover span {display: none;}
 }
