@@ -3,18 +3,30 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+   
+    
 }
+
+.navbar-inverse{
+   background-color: beige; font-weight: bold;
+    
+
+    
+}
+
+
 
 .jumbotron {
     background-size: cover;
     background-image: url(images/paint.jpg);
     margin-top: 15px;
     padding-bottom: 25px;
-    color: whitesmoke;
+    color: navajowhite;
     text-align: center;
     text-shadow: 3px 3px 4px black;
     background-clip: border-box;
     font-size: 1.3em;
+    
 }
 
 body {
@@ -22,15 +34,29 @@ body {
     padding-top: 50px;
     /* Set margin bottom allow for footer height */
     margin-bottom: 50px;
-    background-image: url(images/smash.jpg);
+    background-image: url(images/smoke.jpg);
+    background-size: cover;
     background-color: #A2C0A7;
 }
 
 .footer {
-    font-size: 100%;
+    
+    font-size: 90%;
     font-style: italic;
     text-align: center;
     font-family: Georgia, Times, "Times New Roman", serif;
-    padding: 20px;
-    margin-left: 190px;
+    padding: 30px;
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    width: 100%;
+    background-color: beige;
+    color: deepskyblue;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.venom {
+    color: #ffffff;
 }
