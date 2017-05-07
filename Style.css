@@ -1,0 +1,50 @@
+html {
+    /* Needed to fix footer at bottom of browser */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Move down content because of fixed navbar at top */
+    padding-top: 50px;
+    /* Set margin bottom allow for footer height */
+    margin-bottom: 50px;
+    background: #022A3B !Important;
+    position: relative;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #15516B;
+    color: #427A92;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    background-color: #FBE7D4;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    color: #427A92;
+    background-color: #15516B;
+    border-color: #15516B;
+}
+
+.navbar-inverse.navbar-brand {
+    color: #427A92;
+}
+
+.navbar-inverse .btn {
+    background-color: #CEAEBF;
+    color: #5E2241;
+}
+
+.title {
+    color: #427A92;
+}
