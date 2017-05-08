@@ -1,0 +1,114 @@
+html {
+   /* Needed to fix footer at bottom of browser */
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+   /* Move down content because of fixed navbar at top */
+   padding-top: 50px;
+   /* Set margin bottom allow for footer height */
+   margin-bottom: 50px;
+    color: #DFDCE0;
+    background-color: #303030; 
+    background-image: url(images/background2.jpg);
+    
+    
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   height: 60px;
+   width: 100%;
+   background-color:#303030;
+   color: #9d9d9d;
+   text-align: center;
+   padding: 15px;
+}
+
+
+#main {
+    background-color: #747275;
+    padding-bottom: 25px;
+    border-radius: 0 0 6px 6px;
+
+}
+
+#main .row {
+    margin-bottom: 15px;
+}
+
+.navbar-inverse {
+    background-color: #303030;
+    border-color: #303030;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #DFDCE0;
+}
+
+
+.jumbotron {
+     margin-top: 15px;
+     padding-bottom: 25px;
+     color: #DFDCE0;
+     text-align: center;
+     background-color: #555555;
+     background-repeat: no-repeat;
+     background-clip: border-box;
+     background-size: cover;
+ }
+ 
+ .jumbotron small {
+     color: #B2A1B6;
+ }
+ 
+ .jumbotron p {
+     font-size: 1.3em;
+     font-weight: bold;
+}
+
+#bigicons {
+    font-size: 55px;
+}
+
+
+#pacifictrails {
+    color: #DFDCE0;
+}
+
+#msb {
+    color: #DFDCE0;
+}
+
+#pacifictrails {
+    color: #DFDCE0;
+}
+
+#fanpage {
+    color: #DFDCE0;
+}
+
+#linkedin {
+    color: #DFDCE0;
+}
+
+#github {
+    color: #DFDCE0;
+}
+
+#github a:hover {
+    color: #989299;
+}
+
+#linkedin a:hover {
+    color: #989299;
+}
+
+#paletton {
+    color: #DFDCE0;
+}
+
+
