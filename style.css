@@ -8,6 +8,11 @@ body {
     margin-bottom: 50px;
     background-color: azure;
     position: relative;
+    font-family: "Times New Roman", Georgia, serif;
+}
+
+h3 {
+    font-family: "Hoefler Text", Georgia, serif;
 }
 
 footer {
